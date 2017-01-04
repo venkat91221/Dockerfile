@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER Raghu
+MAINTAINER sathu
 RUN yum install httpd -y
 RUN echo Hello World >/var/www/html/index.html
 EXPOSE 80
